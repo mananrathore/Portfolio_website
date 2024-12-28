@@ -6,7 +6,36 @@
   font: inherit;
   vertical-align: baseline;  
 }
-
+/* General Section Styling */
+section {
+  margin: 50px 0;
+  text-align: center;
+}
+section h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #E83951;
+}
+.project, .internship {
+  display: inline-block;
+  margin: 15px;
+  text-align: center;
+}
+.project img, .internship img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.project h3, .internship h3 {
+  font-size: 1.2em;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.project p, .internship p {
+  font-size: 1em;
+  color: #dddddd;
+}
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
